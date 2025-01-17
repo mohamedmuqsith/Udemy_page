@@ -1,0 +1,222 @@
+body{
+    font-family: sans-serif;
+}
+input{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 750px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 100px;
+    left: 200px;
+    bottom: 60px;
+    max-width: 400px;
+
+}
+
+@media screen and (max-width:600px) {
+    input{
+       padding: 10px;
+       left: 0;
+       top: 0;
+       max-width: 100%;
+    }
+    
+}
+.section-one__title{
+    position: relative;
+    top: 10px;
+    left:10px ;
+    font-size: 48px;
+    color: #A442D5;
+}
+.section-one__logo{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    right: 750px;
+    bottom:  55px;
+}
+.section-one__list_2{
+    position: relative;
+    display: inline;
+    bottom: 110px;
+    left: 1200px;
+    font-size: 18px;
+}
+.section-one__icon{
+    width: 20px;
+    position: relative;
+    left: 1410px;
+    bottom: 150px;
+    margin: 5px;
+}
+.section-two__border{
+    border: solid black 1px;
+    position: relative;
+    bottom: 120px;
+     
+}
+.section-two__image{
+    width:100%;
+    border: solid 1px black;
+    position: relative;
+    bottom: 90px;
+}
+.section-two__buttonone{
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 110px;
+    border: none;
+    background-color:#A73EEE;
+    color: white;
+    padding-right: 50px;
+    padding-left:50px  ;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+.section-two__button{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    bottom: 100px;
+}
+.section-three__list__image{
+    width: 320px;
+    height: 250px;
+  
+    
+}
+
+.section-three__list__title{
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.section-three__list__dec{
+    font-size: 10px;
+    position: relative;
+    bottom: 10px;
+ 
+}
+.section-three__list__price{
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    
+}
+.section-three{
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 70px;
+}
+.section-three-title{
+    position: relative;
+    bottom: 80px;
+    background-color:black;
+    color: white;
+    border-radius: 18px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+.section-three__title{
+    text-align: center;
+}
+.section-three__title1{
+  position: relative;
+  bottom: 76px;
+  left: 20px;
+  background-color:#c06ef7;
+  padding-right:10px ;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+}
+.section-three__list__best{
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 3px;
+  position: relative;
+  bottom: 40px;
+  font-size: 10px;
+  font-weight: bold;
+  color:black;
+  padding-right:10px ;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.section-four{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 90px;
+}
+
+.section-three__list__best1{
+    display: inline-block;
+    background-color:#c06ef7;
+    border-radius: 3px;
+    position: relative;
+    bottom: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+    padding-right:10px ;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+.Footer-Section{
+    display: flex;
+    background-color:#111116;
+    color: white;
+    flex-wrap: wrap;
+   
+}
+.Footer-Section__title{
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+}
+.Footer-Section__one a{
+    position: relative;
+    bottom: 40px;
+    text-decoration: none;
+    color: white;
+}
+.Footer{
+    margin: 80px;
+    
+}
+.Footer-Section__line{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    position: relative;
+    bottom: 100px;
+}
+.Footer-Section__image{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    right: 900px;
+    
+}
+.Footer-Section__co{
+    position: relative;
+    top: 110px;
+    right: 250px;
+}
